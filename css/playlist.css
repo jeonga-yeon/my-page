@@ -1,0 +1,171 @@
+.artist {
+  scale: 0.7;
+}
+
+.artist,
+.song-screen {
+  width: 350px;
+  height: 740px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: -3px 0px 30px #e3e2eb;
+}
+
+.header {
+  margin: 40px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-inform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.artist-inform img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  box-shadow: 1px 5px 15px #8790b3;
+}
+
+.artist-inform__name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #272727;
+}
+
+.artist-inform__genre {
+  color: #adadab;
+}
+
+.artist-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-buttons__shuffle {
+  width: 100px;
+  padding: 10px 0px;
+  color: white;
+  background-color: #222222;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.artist-buttons__heart {
+  width: 100px;
+  padding: 10px 0px;
+  color: #b7b7b9;
+  border-radius: 20px;
+  box-shadow: 1px 5px 15px #ebebeb;
+  text-align: center;
+}
+
+.artist-buttons__heart i {
+  margin-right: 3px;
+}
+
+.artist-songs {
+  margin-top: 20px;
+}
+
+.artist-song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3px 25px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.artist-song:hover {
+  cursor: pointer;
+  box-shadow: -1px 5px 20px #ebebeb;
+}
+
+.artist-song__album {
+  display: flex;
+}
+
+.artist-song__album img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.artist-song__album div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artist-song__name {
+  font-size: 13px;
+  color: #a5a5a5;
+  line-height: 18px;
+}
+.artist-song__ellipsis i {
+  color: #898989;
+}
+
+.artist-song__title {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.play {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.play__botton {
+  position: absolute;
+  bottom: 20px;
+  width: 300px;
+  height: 65px;
+  background-color: #222222;
+  border-radius: 40px;
+  box-shadow: -1px 5px 15px #dcd0d0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.play__detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.play__icons {
+  display: flex;
+  align-items: center;
+}
+
+.play__icons i {
+  margin-left: 15px;
+}
+
+.play__detail span,
+.play__icons i {
+  color: white;
+}
+
+.play__detail span:first-child {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+
+.play__name,
+.play__title {
+  line-height: 20px;
+}

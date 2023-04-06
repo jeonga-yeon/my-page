@@ -1,0 +1,70 @@
+.my-favorite {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 70px 0 70px 0;
+  margin: 0 0 70px 0;
+  height: 100vh;
+}
+.my-favorite h2 {
+  margin: 0 auto 30px;
+  display: inline-block;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  color: #1e3799;
+  font-size: 40px;
+}
+
+.favorit-things {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: 550px;
+}
+.movies {
+  width: 300px;
+  margin: 0 auto;
+}
+.movies__slide {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.slide__images {
+  position: relative;
+  display: flex;
+}
+.slide__images img {
+  width: 300px;
+}
+.btn-next,
+.btn-next:active,
+.btn-next:focus {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+}
+.btn-prev {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+}
+.btn-next:hover,
+.btn-prev:hover {
+  cursor: pointer;
+  color: #f8c291;
+  transition: 0.7s ease-out;
+}
+.disabled,
+.disabled:hover {
+  color: gray;
+}
+.btn-prev {
+  left: 18px;
+  top: 50%;
+}
+.btn-next {
+  right: 18px;
+  top: 50%;
+}

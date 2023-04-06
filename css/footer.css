@@ -1,0 +1,44 @@
+#contact {
+  text-align: center;
+  margin-bottom: 35px;
+  padding-bottom: 45px;
+}
+#contact h2 {
+  font-family: "Handlee", cursive;
+  color: #1e3799;
+  font-size: 40px;
+}
+.contact__wrapper {
+  width: 100%;
+  background-color: white;
+  padding-top: 80px;
+}
+.links {
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.links li {
+  padding: 35px;
+  font-size: 12px;
+}
+
+.github,
+.envelope {
+  font-size: 65px;
+  color: gray;
+}
+
+.github:hover,
+.envelope:hover {
+  color: black;
+}
+
+.img__velog {
+  width: 65px;
+  border-radius: 15px;
+}
+.img__velog:hover {
+  cursor: pointer;
+}

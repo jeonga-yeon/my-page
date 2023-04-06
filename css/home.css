@@ -1,0 +1,60 @@
+header {
+  font-family: "Handlee", cursive;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 60px;
+  background-color: white;
+  color: #1e3799;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.navigation {
+  display: flex;
+  justify-content: right;
+}
+.navigation__item {
+  margin-left: 20px;
+}
+.navigation__item:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fdebeb;
+  position: relative;
+}
+
+.main__typing {
+  width: 100vw;
+  margin-left: 150px;
+  font-size: 70px;
+  font-family: "KyoboHandwriting2021sjy";
+  font-weight: bold;
+  color: #1e3799;
+  line-height: 80px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-size: 30px;
+  color: #535c68;
+  animation: move 2s ease-in-out infinite;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}

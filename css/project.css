@@ -1,0 +1,86 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 100px;
+  background-color: #fdebeb;
+}
+
+.projects h2 {
+  font-family: "Handlee", cursive;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: inline-block;
+  font-weight: bold;
+  color: #1e3799;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.projects .projects__wrapper {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  width: 1000px;
+  border-radius: 20px;
+  background-color: #fdebeb;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+.project__wrapper {
+  display: flex;
+}
+
+.project__wrapper a {
+  scale: 1;
+  transition: scale 0.3s;
+}
+
+.project__wrapper a:hover {
+  scale: 1.1;
+}
+
+.project__wrapper:first-child {
+  margin-bottom: 30px;
+}
+.project__img {
+  border-radius: 15px;
+  width: 452px;
+  margin-bottom: 25px;
+}
+
+.project__info {
+  text-align: left;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project__info h3 {
+  font-size: 28px;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+
+#first-project {
+  font-family: "Handlee", cursive;
+}
+#second-project {
+  font-family: "KyoboHandwriting2021sjy";
+}
+.project__info ul .small-title {
+  font-family: "KyoboHandwriting2021sjy";
+  color: #1e3799;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+.project__info ul .small-info {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: "KyoboHandwriting2021sjy";
+}
+
+.project__info ul .small-info:last-child {
+  font-family: "Handlee", cursive;
+}
